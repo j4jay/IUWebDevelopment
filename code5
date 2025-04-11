@@ -1,0 +1,11 @@
+<!-- Basic Interface -->
+<input id="updateTitle" placeholder="Title to update">
+<input id="updateAuthor" placeholder="New Author">
+<input id="updateYear" placeholder="New Year">
+<input id="updateGenre" placeholder="New Genre">
+<button onclick="updateBook()">Update Book</button>
+
+<input id="removeTitle" placeholder="Title to remove">
+<button onclick="removeBook()">Remove Book</button>
+
+<table id="bookTable"></table>
